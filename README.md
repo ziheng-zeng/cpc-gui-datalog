@@ -1,4 +1,4 @@
-# CPC GUI Data Log
+# CPC Live Logger
 
 Tkinter GUI for real-time CPC instrument readings and data acquisition. The app opens one serial-reading thread per configured CPC, displays current instrument values, plots recent concentration readings live, and writes daily CSV log files.
 
@@ -65,4 +65,4 @@ Each row contains the latest values received from the configured CPCs. If one CP
 
 ## Related repo
 
-Use `cpc-plot` for offline plots of these CSV logs, instrument comparisons, and CPC FARM size-distribution contour plots.
+Use `cpc-data-plotter` for offline plots of these CSV logs, instrument comparisons, and CPC FARM size-distribution contour plots.

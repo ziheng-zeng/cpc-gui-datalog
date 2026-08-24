@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cpc-gui-datalog"
+name = "cpc-live-logger"
 version = "0.1.0"
 description = "Real-time CPC GUI data logger with serial acquisition and live plotting."
 requires-python = ">=3.10"
@@ -18,4 +18,3 @@ dependencies = [
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["cpc_log*"]
-
