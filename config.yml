@@ -1,0 +1,17 @@
+---
+"num_cpcs": 1
+"data_dir": "data"
+cpc1:
+  "cpc_name": "ADI CPC"
+  "serial_port": "COM4"
+  "serial_baud": 115200
+  "serial_bytesize": 8
+  "serial_parity": "N"
+  "serial_timeout": 0.5
+  "start_commands": ["psld,12", "log,1"]
+  "set_time": True
+  "default_flow": True
+  "cpc_flowrate": 0
+  "serial_commands": []
+  "cpc_header": [cpc name, datetime, instrument_datetime, concentration, condenser_temperature, initiator_temperature, moderator_temperature, optics_temperature, moderator_heatsink_temperature, board_temperature, condenser_heatsink_temperature, differential_pressure, absolute_pressure, flow_rate, interval_time, corrected_live_time, measured_dead_time, xx, xxx, flags, flags_character, serial_number]
+
