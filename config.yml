@@ -14,4 +14,3 @@ cpc1:
   "cpc_flowrate": 0
   "serial_commands": []
   "cpc_header": [cpc name, datetime, instrument_datetime, concentration, condenser_temperature, initiator_temperature, moderator_temperature, optics_temperature, moderator_heatsink_temperature, board_temperature, condenser_heatsink_temperature, differential_pressure, absolute_pressure, flow_rate, interval_time, corrected_live_time, measured_dead_time, xx, xxx, flags, flags_character, serial_number]
-
